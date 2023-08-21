@@ -1,0 +1,63 @@
+{
+       "columns": 22,
+       "image": "tiles-map.png",
+       "imageheight": 288,
+       "imagewidth": 352,
+       "margin": 0,
+       "name": "tiles-map_glass",
+       "spacing": 0,
+       "tilecount": 396,
+       "tiledversion": "1.10.1",
+       "tileheight": 16,
+       "tiles": [
+              {
+                     "id": 52,
+                     "type": "dynamicAbove"
+              },
+              {
+                     "id": 74,
+                     "type": "dynamicAbove"
+              },
+              {
+                     "id": 96,
+                     "type": "dynamicAbove"
+              },
+              {
+                     "id": 118,
+                     "type": "dynamicAbove"
+              },
+              {
+                     "id": 140,
+                     "type": "dynamicAbove"
+              },
+              {
+                     "id": 162,
+                     "objectgroup": {
+                            "draworder": "index",
+                            "id": 2,
+                            "name": "",
+                            "objects": [
+                                   {
+                                          "height": 7.625,
+                                          "id": 13,
+                                          "name": "",
+                                          "rotation": 0,
+                                          "type": "",
+                                          "visible": true,
+                                          "width": 15.75,
+                                          "x": 0.125,
+                                          "y": 0
+                                   }
+                            ],
+                            "opacity": 1,
+                            "type": "objectgroup",
+                            "visible": true,
+                            "x": 0,
+                            "y": 0
+                     }
+              }
+       ],
+       "tilewidth": 16,
+       "type": "tileset",
+       "version": "1.10"
+}

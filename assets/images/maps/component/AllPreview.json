@@ -1,0 +1,14 @@
+{ "columns":47,
+ "image":"AllPreview.png",
+ "imageheight":473,
+ "imagewidth":753,
+ "margin":0,
+ "name":"AllPreview",
+ "spacing":0,
+ "tilecount":1363,
+ "tiledversion":"1.10.1",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

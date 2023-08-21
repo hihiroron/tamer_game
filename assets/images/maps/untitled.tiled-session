@@ -1,0 +1,227 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "component",
+        "."
+    ],
+    "file.lastUsedOpenFilter": "JSON tileset files (*.tsj *.json)",
+    "fileStates": {
+        "0x72_DungeonTilesetII_v1.6.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "0x72_DungeonTilesetII_v1.6.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "0x72_DungeonTilesetII_v1.6.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "UI_Flat_Select_02a3_32.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/AllPreview.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/AllPreview.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/SpriteSheet.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/SpriteSheet.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/UI_Flat_Select_02a3.json": {
+            "scaleInDock": 1
+        },
+        "component/UI_Flat_Select_02a3.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/UI_Flat_Select_02a3_32.json": {
+            "scaleInDock": 1
+        },
+        "component/biome1_tileset.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/forestBackground.json": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "component/grass-tile-2.json": {
+            "scaleInDock": 1
+        },
+        "component/grass-tile.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "component/map_biome1.json": {
+            "scale": 0.7560416666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.72747313309452,
+                "y": 160.70542849269768
+            }
+        },
+        "component/particlePreview.json": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "component/tiles-map_glass.json": {
+            "scaleInDock": 1
+        },
+        "component/tiles-map_glass.tsj": {
+            "scaleInDock": 1
+        },
+        "component/transparent-bg-tiles.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "field_map1.json": {
+            "scale": 1.12,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 163.39285714285714,
+                "y": 130.80357142857142
+            }
+        },
+        "field_map1.tmj": {
+            "scale": 1.1340625,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 160.48498208872968,
+                "y": 128.29980710939654
+            }
+        },
+        "floor_1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "forestBackGround.json": {
+            "scale": 1.41,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 126.9503546099291,
+                "y": 161.34751773049646
+            }
+        },
+        "forestBackground.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "grass-tile-2.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "grass-tile-2.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "grass-tile-3.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "grass-tile.json": {
+            "scaleInDock": 1
+        },
+        "grass-tile.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "home_map.json": {
+            "scale": 1.11,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 186.93693693693692,
+                "y": 111.71171171171167
+            }
+        },
+        "home_map.tmj": {
+            "scale": 1.03,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 165.53398058252426,
+                "y": 114.5631067961165
+            }
+        },
+        "old_forestBackGround.json": {
+            "scale": 1.417578125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.38798567098374,
+                "y": 160.48498208872968
+            }
+        },
+        "old_map1.json": {
+            "scale": 1.12,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 159.82142857142856,
+                "y": 129.91071428571428
+            }
+        },
+        "tiles-map_glass.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "tiles-map_glass.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tiles-map_grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "transparent-bg-tiles.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "transparent-bg-tiles.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.externalTilesetPath": "/Users/suehirahiroshiakira/Desktop/src/tamer_game/assets/images/maps/component",
+    "last.imagePath": "/Users/suehirahiroshiakira/Desktop/src/tamer_game/assets/images/maps/component",
+    "map.height": 20,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 16,
+    "openFiles": [
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "old_forestBackGround.json",
+        "forestBackGround.json",
+        "component/transparent-bg-tiles.json",
+        "component/map_biome1.json",
+        "component/biome1_tileset.json",
+        "component/AllPreview.json",
+        "component/SpriteSheet.json",
+        "component/forestBackground.json",
+        "field_map1.json",
+        "component/AllPreview.tsj",
+        "component/SpriteSheet.tsj",
+        "UI_Flat_Select_02a3_32.tsj"
+    ],
+    "tileset.lastUsedFilter": "JSON tileset files (*.tsj *.json)",
+    "tileset.lastUsedFormat": "json",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

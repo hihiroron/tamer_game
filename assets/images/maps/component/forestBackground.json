@@ -1,0 +1,15 @@
+{
+    "columns": 58,
+    "image": "Background.png",
+    "imageheight": 793,
+    "imagewidth": 928,
+    "margin": 0,
+    "name": "forestBackground",
+    "spacing": 0,
+    "tilecount": 2842,
+    "tiledversion": "1.10.1",
+    "tileheight": 16,
+    "tilewidth": 16,
+    "type": "tileset",
+    "version": "1.10"
+}
