@@ -5,7 +5,7 @@ import 'package:tamer_game/util/common_sprite_sheet.dart';
 class BattleRivalMonster extends GameDecoration with TapGesture {
   BattleRivalMonster(Vector2 position)
       : super.withAnimation(
-          animation: CommonSpriteSheet.battleCharacter,
+          animation: CommonSpriteSheet.battleRival,
           size: Vector2(8, 16) * 4,
           position: position,
         );

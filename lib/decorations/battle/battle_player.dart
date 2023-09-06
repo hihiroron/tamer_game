@@ -8,7 +8,7 @@ class BattlePlayer extends GameDecoration with TapGesture {
   late TextPaint _textConfig;
   BattlePlayer(Vector2 position)
       : super.withAnimation(
-          animation: CommonSpriteSheet.battleCharacter,
+          animation: CommonSpriteSheet.battlePlayer,
           size: Vector2(8, 16) * 4,
           position: position,
         );

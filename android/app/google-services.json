@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829279320528",
+    "project_id": "tamer-game-dev",
+    "storage_bucket": "tamer-game-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829279320528:android:f417a4c3fd77e0dbe221d5",
+        "android_client_info": {
+          "package_name": "com.example.tamer_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829279320528-6u9eptqplbrmsa148cslecdorgbrv0lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhFbqTGNzNgvntkixaStiUjBkkAo-bshU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829279320528-6u9eptqplbrmsa148cslecdorgbrv0lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

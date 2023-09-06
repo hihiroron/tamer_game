@@ -21,13 +21,46 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
+// decode dart-define
+// def dartEnvironmentVariables = [:];
+// if (project.hasProperty('dart-defines')) {
+//     dartEnvironmentVariables = dartEnvironmentVariables + project.property('dart-defines')
+//         .split(',')
+//         .collectionEntries { entry ->
+//             def pair = new String(entry.decodeBase64(), 'UTF-8').split('=')
+//             [(pair.first()): pair.last()]
+//         }
+// }
+
+// Icon copy task
+// task copySources(type: Copy) {
+//     from "src/${dartEnvironmentVariables.FLAVOR}/res"
+//     into 'src/main/res'
+// }
+
+// Firebase settings copy task
+// task selectGoogleServicesJson(type: Copy) {
+//         from "google-services.json"
+//     // from "src/${dartEnvironmentVariables.FLAVOR}/google-services.json"
+//     into './'
+// }
+
+// add task
+// tasks.whenTaskAdded { task ->
+//     task.dependsOn copySources
+//     if (task.name == 'processDebugGoogleServices' || task.name == 'processReleaseGoogleServices') {
+//         task.dependsOn selectGoogleServicesJson
+//     }
+// }
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply plugin: 'com.google.gms.google-services'
 
 android {
     namespace "com.example.tamer_game"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 33
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -48,7 +81,7 @@ android {
         applicationId "com.example.tamer_game"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -61,6 +94,9 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    aaptOptions {
+        noCompress "tflite"
+    }
 }
 
 flutter {
@@ -69,4 +105,8 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    // implementation 'org.tensorflow.:tensorflow-lite:2.4.0'
+    implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
+    implementation("com.google.firebase:firebase-analytics-ktx")
 }
