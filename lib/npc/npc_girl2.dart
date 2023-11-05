@@ -3,8 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class NpcGirl2 extends SimpleNpc with ObjectCollision, JoystickListener {
-  NpcGirl2(Vector2 position, SpriteSheet spriteSheet, {required initDirection})
-      : super(
+  NpcGirl2(
+    Vector2 position,
+    SpriteSheet spriteSheet,
+    //  this.talkDialogContents,
+    {
+    required initDirection,
+    this.npcFunc,
+    required this.sayList,
+  }) : super(
           // アニメーションの設定
           animation: SimpleDirectionAnimation(
             idleDown: spriteSheet
@@ -52,6 +59,9 @@ class NpcGirl2 extends SimpleNpc with ObjectCollision, JoystickListener {
   }
 
   static final sizeNpc = Vector2(16, 23) * 3;
+  // String talkDialogContents;
+  final List<Say> sayList;
+  final Function? npcFunc;
 
   // 視野の半径
   static const radiusVision = 54.0;
@@ -85,7 +95,7 @@ class NpcGirl2 extends SimpleNpc with ObjectCollision, JoystickListener {
 
   // キーボードやボタンの押下で実行する処理
   @override
-  void joystickAction(JoystickActionEvent event) {
+  void joystickAction(JoystickActionEvent event) async {
     if ((event.id == 1 || event.id == LogicalKeyboardKey.space.keyId) &&
         event.event == ActionEvent.DOWN &&
         _seePlayer) {
@@ -122,27 +132,7 @@ class NpcGirl2 extends SimpleNpc with ObjectCollision, JoystickListener {
     TalkDialog.show(
       context,
       // テキストの量だけ`Say()`を配列に追加する
-      [
-        Say(
-          text: [const TextSpan(text: 'ここはどこ？')], // 表示するテキスト
-          personSayDirection: PersonSayDirection.LEFT, // NPCをテキストの左に表示
-          person: SizedBox(
-            width: size.x,
-            height: size.y,
-            child: animation!.idleDown!.asFuture().asWidget(),
-          ), // 表示するアニメーション
-        ),
-        Say(
-          text: [const TextSpan(text: 'さっきまで家にいたはずなのに、、')], // 表示するテキスト
-          personSayDirection: PersonSayDirection.LEFT, // NPCをテキストの左に表示
-          person: SizedBox(
-            width: size.x,
-            height: size.y,
-            child: animation!.idleDown!.asFuture().asWidget(),
-          ), // 表示するアニメーション
-        ),
-        // 必要な数だけSay()を追加
-      ],
+      sayList,
       // 会話を次に進めるキーの追加
       logicalKeyboardKeysToNext: [LogicalKeyboardKey.space],
       // テキストのスタイル
@@ -150,7 +140,13 @@ class NpcGirl2 extends SimpleNpc with ObjectCollision, JoystickListener {
           Theme.of(context).textTheme.titleLarge!.copyWith(color: Colors.white),
       // 会話終了後にカメラをプレイヤーに戻す
       onFinish: () {
-        gameRef.camera.moveToTargetAnimated(gameRef.player!);
+        if (npcFunc != null) {
+          Future(() {
+            return npcFunc!();
+          });
+        } else {
+          gameRef.camera.moveToTargetAnimated(gameRef.player!);
+        }
       },
     );
   }

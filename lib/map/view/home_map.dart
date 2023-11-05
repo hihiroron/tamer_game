@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:bonfire/bonfire.dart';
 import 'package:tamer_game/map/view/old_map.dart';
+import 'package:tamer_game/npc/npc_common.dart';
 import 'package:tamer_game/npc/npc_girl2.dart';
-import 'package:tamer_game/npc/npc_girl_sprite.dart';
+import 'package:tamer_game/sprite/npc_girl_sprite.dart';
 import 'package:tamer_game/player/player_beared_dude.dart';
 import 'package:tamer_game/player/player_sprite.dart';
 import 'package:tamer_game/util/exit_map_sensor.dart';
@@ -35,9 +36,19 @@ class _HomeMapState extends State<HomeMap> {
           // デコレーションを追加
           'girl2': (properties) {
             npcGirl2 = NpcGirl2(
-              properties.position,
-              NpcGirlSprite.sheet,
+              properties.position, NpcGirlSprite.sheet,
+              // 'ここは？',
               initDirection: Direction.left,
+              sayList: [
+                Say(
+                  text: [TextSpan(text: 'ここはどこ？')], // 表示するテキスト
+                  personSayDirection: PersonSayDirection.LEFT, // NPCをテキストの左に表示
+                ),
+                Say(
+                  text: [const TextSpan(text: 'さっきまで家にいたはずなのに、、')], // 表示するテキスト
+                  personSayDirection: PersonSayDirection.LEFT, // NPCをテキストの左に表示
+                ),
+              ],
             );
             return npcGirl2;
           },

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:bonfire/bonfire.dart';
 import 'package:tamer_game/map/view/battle_map.dart';
 import 'package:tamer_game/npc/npc_girl.dart';
-import 'package:tamer_game/npc/npc_girl_sprite.dart';
+import 'package:tamer_game/sprite/npc_girl_sprite.dart';
 import 'package:tamer_game/player/player_beared_dude.dart';
 import 'package:tamer_game/player/player_sprite.dart';
 import 'package:tamer_game/util/exit_map_sensor.dart';

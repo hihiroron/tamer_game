@@ -67,6 +67,7 @@ dependencies:
   collection: ^1.16.0
   envied: ^0.3.0
   grouped_list: ^5.1.2
+  flutter_animate: ^4.2.0+1
 
 dev_dependencies:
   flutter_test:
@@ -96,7 +97,9 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/
+    - assets/images/objects/
     - assets/images/maps/
+    - assets/images/maps/tileset/
     - assets/images/maps/component/
     - assets/images/characters/
     - assets/images/monsters/

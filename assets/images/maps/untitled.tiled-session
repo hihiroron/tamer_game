@@ -1,14 +1,9 @@
 {
-    "Map/SizeTest": {
-        "height": 4300,
-        "width": 2
-    },
     "activeFile": "",
     "expandedProjectPaths": [
-        "component",
-        "."
+        ".",
+        "component"
     ],
-    "file.lastUsedOpenFilter": "JSON tileset files (*.tsj *.json)",
     "fileStates": {
         "0x72_DungeonTilesetII_v1.6.json": {
             "scaleInDock": 1,
@@ -93,8 +88,8 @@
             "scale": 1.12,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 163.39285714285714,
-                "y": 130.80357142857142
+                "x": 156.69642857142858,
+                "y": 119.64285714285714
             }
         },
         "field_map1.tmj": {
@@ -113,8 +108,8 @@
             "scale": 1.41,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 126.9503546099291,
-                "y": 161.34751773049646
+                "x": 121.63120567375887,
+                "y": 155.31914893617022
             }
         },
         "forestBackground.tsj": {
@@ -158,7 +153,7 @@
         },
         "old_forestBackGround.json": {
             "scale": 1.417578125,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
                 "x": 128.38798567098374,
                 "y": 160.48498208872968
@@ -168,8 +163,50 @@
             "scale": 1.12,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 159.82142857142856,
-                "y": 129.91071428571428
+                "x": 153.12499999999997,
+                "y": 123.21428571428572
+            }
+        },
+        "school_map.json": {
+            "scale": 1.1340625,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160.0440892807936,
+                "y": 126.97712868558831
+            }
+        },
+        "school_map.tmj": {
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 1.1340625,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 148.5808762744558,
+                "y": 120.80462937448331
+            }
+        },
+        "school_map.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "store_city.json": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 1.13,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.73451327433628,
+                "y": 116.81415929203538
+            }
+        },
+        "store_city.tmj": {
+            "scale": 1.1340625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.0440892807936,
+                "y": 128.7406999173326
             }
         },
         "tiles-map_glass.json": {
@@ -185,6 +222,69 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "tileset/GBtilesheet4colours.json": {
+            "scaleInDock": 0.12,
+            "scaleInEditor": 1
+        },
+        "tileset/GBtilesheet4colours.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/GBtilesheet5colours.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/classroom_floor.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/classroom_floor.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/classroom_wall.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/classroom_wall.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/clssroom_element.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/clssroom_element.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/inside_seven_eleven.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/seven_eleven_tileset.json": {
+            "scaleInEditor": 1
+        },
+        "tileset/seven_eleven_tileset.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/seven_eleven_tileset2.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/store_city_tile.json": {
+            "scaleInDock": 0.12,
+            "scaleInEditor": 1
+        },
+        "tileset/store_city_tile.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/store_earth.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "transparent-bg-tiles.json": {
             "scaleInDock": 1,
             "scaleInEditor": 1
@@ -194,34 +294,7 @@
             "scaleInEditor": 1
         }
     },
-    "last.externalTilesetPath": "/Users/suehirahiroshiakira/Desktop/src/tamer_game/assets/images/maps/component",
-    "last.imagePath": "/Users/suehirahiroshiakira/Desktop/src/tamer_game/assets/images/maps/component",
-    "map.height": 20,
-    "map.lastUsedFormat": "json",
-    "map.tileHeight": 16,
-    "map.tileWidth": 16,
-    "map.width": 16,
     "openFiles": [
     ],
-    "project": "untitled.tiled-project",
-    "recentFiles": [
-        "old_forestBackGround.json",
-        "forestBackGround.json",
-        "component/transparent-bg-tiles.json",
-        "component/map_biome1.json",
-        "component/biome1_tileset.json",
-        "component/AllPreview.json",
-        "component/SpriteSheet.json",
-        "component/forestBackground.json",
-        "field_map1.json",
-        "component/AllPreview.tsj",
-        "component/SpriteSheet.tsj",
-        "UI_Flat_Select_02a3_32.tsj"
-    ],
-    "tileset.lastUsedFilter": "JSON tileset files (*.tsj *.json)",
-    "tileset.lastUsedFormat": "json",
-    "tileset.tileSize": {
-        "height": 16,
-        "width": 16
-    }
+    "project": "untitled.tiled-project"
 }
